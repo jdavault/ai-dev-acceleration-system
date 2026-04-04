@@ -1,0 +1,14 @@
+Supercharge Your React App: Master CRUD Operations with Axios & JSON Server
+This is a great middle-ground tutorial. It's about 38 minutes long and walks you through setting up the JSON server, using Axios to fetch data, and handling all the CRUD (Create, Read, Update, Delete) actions for a simple app.
+http://www.youtube.com/watch?v=SYv61aPSiOo
+
+CRUD Operations using React and Json Server (2024)
+This is a more recent and very thorough walkthrough. It uses Bootstrap for quick styling so you can focus on the logic, and it covers React Router so you can see how to navigate between a list of tasks and an "Edit" or "Add" page.
+http://www.youtube.com/watch?v=XBfZxrLcDC8
+
+React CRUD Operations | Learn React JS
+Dave Gray is highly respected in the dev community for his "no-fluff" teaching style. This is a shorter 20-minute video that gets straight to the point of how to perform CRUD operations in React. It’s slightly older but the core logic remains the most efficient way to learn.
+http://www.youtube.com/watch?v=XYrNkTkx8Uc
+
+
+
