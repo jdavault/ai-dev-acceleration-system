@@ -1,0 +1,100 @@
+{
+  "issues": [
+    {
+      "id": 1,
+      "title": "Login page returns 500 error",
+      "description": "Users are unable to log in. The server returns a 500 Internal Server Error when submitting the login form.",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-04-01T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Update dashboard chart colors",
+      "description": "The current chart colors are hard to distinguish for colorblind users. Switch to an accessible palette.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-04-01T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Add export to CSV feature",
+      "description": "Users need the ability to export their data as a CSV file from the reports page.",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-04-02T08:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Fix broken image on About page",
+      "description": "The team photo on the About page is showing a broken image icon. The file path may have changed.",
+      "priority": "low",
+      "status": "completed",
+      "createdAt": "2026-04-02T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Implement password reset flow",
+      "description": "Users who forget their password currently have no way to reset it. Add email-based password reset.",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-04-02T14:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Optimize database queries on search",
+      "description": "Search endpoint is slow when filtering large datasets. Add proper indexing and query optimization.",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-04-03T09:30:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Update footer copyright year",
+      "description": "Footer still shows 2025. Update to dynamically display the current year.",
+      "priority": "low",
+      "status": "completed",
+      "createdAt": "2026-04-03T10:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Add loading skeleton to user list",
+      "description": "Replace the spinner with a skeleton loader for a better perceived performance on the user list page.",
+      "priority": "low",
+      "status": "open",
+      "createdAt": "2026-04-03T13:45:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Mobile nav menu not closing on tap",
+      "description": "On mobile devices, tapping a nav link navigates but the hamburger menu stays open.",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2026-04-04T08:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Set up CI pipeline for PRs",
+      "description": "Configure GitHub Actions to run lint, type-check, and tests on every pull request.",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-04-04T15:00:00Z"
+    },
+    {
+      "id": 11,
+      "title": "Refactor notification service",
+      "description": "The notification service has grown too large. Split into email, push, and in-app notification modules.",
+      "priority": "medium",
+      "status": "open",
+      "createdAt": "2026-04-05T09:00:00Z"
+    },
+    {
+      "id": 12,
+      "title": "Fix date picker timezone bug",
+      "description": "The date picker shows dates one day off for users in negative UTC offset timezones.",
+      "priority": "high",
+      "status": "open",
+      "createdAt": "2026-04-05T10:30:00Z"
+    }
+  ]
+}
