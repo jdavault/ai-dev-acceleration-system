@@ -10,5 +10,8 @@ React CRUD Operations | Learn React JS
 Dave Gray is highly respected in the dev community for his "no-fluff" teaching style. This is a shorter 20-minute video that gets straight to the point of how to perform CRUD operations in React. It’s slightly older but the core logic remains the most efficient way to learn.
 http://www.youtube.com/watch?v=XYrNkTkx8Uc
 
+Code with Yousaf 
+Search Filter in react with Dynamic Data 9:00
+https://www.youtube.com/watch?v=KRJvlxhLXxk&pp=ugUEEgJlbg%3D%3D
 
-
+search, filtering, pagination
