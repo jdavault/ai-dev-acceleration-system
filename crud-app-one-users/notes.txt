@@ -18,8 +18,6 @@ https://www.youtube.com/watch?v=nk8WUVcgYwI
 Animated Website in React
 1.6k views 12min
 
--------
-
 CRUD Operations using React and Json Server (2024)
 This is a more recent and very thorough walkthrough. It uses Bootstrap for quick styling so you can focus on the logic, and it covers React Router so you can see how to navigate between a list of tasks and an "Edit" or "Add" page.
 http://www.youtube.com/watch?v=XBfZxrLcDC8

@@ -12,7 +12,7 @@ export default function Create() {
     description: '',
     priority: 'medium',
     status: 'open',
-    createdAt: new Date().toISOString(),
+    createdAt: '',
   });
 
   const handleCreate = async (e: SubmitEvent<HTMLFormElement>) => {

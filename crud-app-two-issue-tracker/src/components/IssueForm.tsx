@@ -26,6 +26,7 @@ export default function IssueForm({
           className="form-control"
           id="title"
           placeholder="Enter issue title"
+          required
           value={issue.title}
           onChange={(e) => onChange({ ...issue, title: e.target.value })}
         />

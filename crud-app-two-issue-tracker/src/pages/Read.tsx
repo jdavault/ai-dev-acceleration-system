@@ -1,11 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { useIssue } from '../hooks/useIssues';
-
-const STATUS_BADGE: Record<string, string> = {
-  open: 'bg-warning text-dark',
-  'in-progress': 'bg-primary',
-  completed: 'bg-success',
-};
+import { STATUS_BADGE, STATUS_LABEL, PRIORITY_LABEL } from '../constants/issueLabels';
 
 export default function Read() {
   const { id } = useParams<{ id: string }>();
@@ -30,15 +25,12 @@ export default function Read() {
           <strong>Description:</strong> {issue.description}
         </div>
         <div className="mb-2">
-          <strong>Priority:</strong>{' '}
-          {issue.priority.charAt(0).toUpperCase() + issue.priority.slice(1)}
+          <strong>Priority:</strong> {PRIORITY_LABEL[issue.priority]}
         </div>
         <div className="mb-2">
           <strong>Status:</strong>{' '}
           <span className={`badge ${STATUS_BADGE[issue.status]}`}>
-            {issue.status === 'in-progress'
-              ? 'In Progress'
-              : issue.status.charAt(0).toUpperCase() + issue.status.slice(1)}
+            {STATUS_LABEL[issue.status]}
           </span>
         </div>
         <div className="mb-3">

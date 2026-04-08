@@ -1,29 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useIssues } from '../hooks/useIssues';
-import type { IssueStatus } from '../types/issue';
+import { STATUS_BADGE, STATUS_LABEL, PRIORITY_BADGE, PRIORITY_LABEL } from '../constants/issueLabels';
 import ConfirmModal from '../components/ConfirmModal';
 import Pagination from '../components/Pagination';
 import Spinner from '../components/Spinner';
 import Navbar from '../components/Navbar';
-
-const STATUS_BADGE: Record<IssueStatus, string> = {
-  open: 'bg-warning text-dark',
-  'in-progress': 'bg-primary',
-  completed: 'bg-success',
-};
-
-const STATUS_LABEL: Record<IssueStatus, string> = {
-  open: 'Open',
-  'in-progress': 'In Progress',
-  completed: 'Completed',
-};
-
-const PRIORITY_BADGE: Record<string, string> = {
-  high: 'text-danger fw-bold',
-  medium: 'text-warning fw-semibold',
-  low: 'text-muted',
-};
 
 export default function Home() {
   const { issues, loading, removeIssue, changeStatus } = useIssues();
@@ -118,8 +100,7 @@ export default function Home() {
                       <td>{issue.title}</td>
                       <td>
                         <span className={PRIORITY_BADGE[issue.priority]}>
-                          {issue.priority.charAt(0).toUpperCase() +
-                            issue.priority.slice(1)}
+                          {PRIORITY_LABEL[issue.priority]}
                         </span>
                       </td>
                       <td>
